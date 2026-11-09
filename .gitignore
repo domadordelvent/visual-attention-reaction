@@ -1,0 +1,30 @@
+# Godot 4 cache, generated exports and platform builds.
+.godot/
+/build/
+/dist/
+/android/
+export.cfg
+export_credentials.cfg
+*.translation
+
+# Local session history, credentials and temporary output.
+sessions*.json
+sessions*.json.tmp
+.env
+.env.*
+*.pem
+*.key
+*.log
+*.tmp
+*.bak
+*~
+*.swp
+
+# Local demonstration recording; the README links the published video.
+/video/
+
+# Operating system and editor metadata.
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

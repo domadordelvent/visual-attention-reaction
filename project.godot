@@ -1,0 +1,24 @@
+config_version=5
+
+[application]
+config/name="Visual Attention & Reaction"
+run/main_scene="res://main.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+
+[display]
+window/size/viewport_width=800
+window/size/viewport_height=900
+window/size/window_width_override=800
+window/size/window_height_override=900
+window/size/min_width=360
+window/size/min_height=480
+window/stretch/mode="disabled"
+window/stretch/aspect="expand"
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.12, 0.17, 0.21, 1)
+
+[input_devices]
+pointing/emulate_mouse_from_touch=false
